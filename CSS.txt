@@ -144,9 +144,25 @@ PSEUDO-ELEMENTO
 
 IMAGENES
 
-object-fit: cover, ajusta la imagen, tipo strecht a un div o a su contenedor
+object-fit: none, le importa un carajo y se pone en sus resoluciones normales.
+object-fit: cover, ajusta la imagen, tipo strecht a un div o a su contenedor.
+object-fit: scale-down, se queda con la mejor propiedad
+
+objet-posiction: left, la imagen se muestra mas del lado izquierdo
+objet-posiction: right, la imagen se muestra mas del lado derecho
+objet-posiction: up, la imagen se muestra mas del lado arriba
+objet-posiction: down, la imagen se muestra mas del lado abajo
+
 -------------------------------------------------------------------------------------------------------------------------------------------
+
+CURSOR
+
+cursor: pointer, row-resize, progress etc 
+se pueden buscar en internet los tipos de cursores
+/*	obviamente no hacen esas funciones solo es front-end*/
+
 -------------------------------------------------------------------------------------------------------------------------------------------
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------
 
