@@ -1,4 +1,4 @@
-
+	
 ESTRUCTURA CSS:
 
 selector {
@@ -9,21 +9,21 @@ selector {
 
 SELECTORES:
 
-clases: ."nombre de la clase"
-ID: #"Nombre de id"
-herencia: "nombre del contenedor" "nombre del elemento"
-pseudo clases: "nombre del elemento":"Nombre del evento"
-atributo: ["nombre de atributo con signo igual y comillas al final"], ejemplo [rancio=""]
+clases: ."nombre de la clase".
+ID: #"Nombre de id".
+herencia: "nombre del contenedor" "nombre del elemento".
+pseudo clases: "nombre del elemento":"Nombre del evento".
+atributo: ["nombre de atributo con signo igual y comillas al final"], ejemplo [rancio=""].
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 DATOS IMPORTANTES:
 
-*para que una propiedad se cumpla si o si: !important
-*box-sizing: border-box;	por defecto viene con border-box: content-align (pero este ocupa espacio de afuera, no mueve si necesita mas espacio, se sobrepone, escode)
-*añadir: normalice
-*para añadir mas intensidad: duplicar (blackground-color: blue, blue;), solo para text-box-shadow
-*orden: top left button right
-*jerarquia de posiciones:
+*para que una propiedad se cumpla si o si: !important.
+*box-sizing: border-box;	por defecto viene con border-box: content-align (pero este ocupa espacio de afuera, no mueve si necesita mas espacio, se sobrepone, escode).
+*añadir: normalice.
+*para añadir mas intensidad: duplicar (blackground-color: blue, blue;), solo para text-box-shadow.
+*orden: top left button right.
+*jerarquia de posiciones:.
 - top, left
 - button, right
 
@@ -53,21 +53,22 @@ active
 TIPOS DE CAJAS
 
 Display: 
--block: toda la pantalla hasta la derecha 
--inline: el pedacito que ocupe de texto o lo que sea, es su tamaño, y se pueden poner en linea uno tras otro
--inline-block: es un block(se puede poner width, height), pero se ponen en linea 
+-block: toda la pantalla hasta la derecha.
+-inline: el pedacito que ocupe de texto o lo que sea, es su tamaño, y se pueden poner en linea uno tras otro.
+-inline-block: es un block(se puede poner width, height), pero se ponen en linea.
+-Flex: añade propiedades unicas.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 PROPIEDADES DE LETRA:
 
-font-size: tamaño de letra
-font-family: Tipografia
-line-height: Distancia entre el tex y la caja y se divide en 2, la mitad arriba y la mitad abajo
-font-weight: grosor
+font-size: tamaño de letra.
+font-family: Tipografia.
+line-height: Distancia entre el tex y la caja y se divide en 2, la mitad arriba y la mitad abajo.
+font-weight: grosor.
 text-shadow: "cuanto en eje x" "cuanto en eje y" "tamaño de desenfoque" "color",
-/*	Para poner una tipo grafia, copiar el "a" y pegar en el head, despues poner el font-family con el nombre de la tipografia*/
+/*	Para poner una tipo grafia, copiar el "a" y pegar en el head, despues poner el font-family con el nombre de la tipografia.*/
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -75,7 +76,11 @@ PROPIEDADES DE LAS CAJAS:
 
 padding, border-radius,  border: "tamaño" solid "color", outline: "tamaño" solid "color"
 box-shadow: "cuanto en eje x" "cuanto en eje y" "tamaño de desenfoque" "grosor" "color",
-
+flex-direction /* Con este jugamos con las direcciones de nuestro eje de referencia, se convierte en caja felxible SOLAMENTE los elementos 
+que estan adentro del contenedor, por lo que es necesario añadir la pripiedad display: flex, al contenedor*/.
+flex-wrap: wrap, respeta las dimenciones de los elementos que estan dentro del contendor, por lo que si no caben los envian hacia abajo.
+flex-wrap: wrap-reverse, respeta las dimenciones de los elementos que estan dentro del contendor, por lo que si no caben los envian 
+hacia arriba.
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 EVENTOS:
@@ -89,17 +94,17 @@ POCISION:
 static: default, conserva su posicion en el dom
 
 relative: Es cuando en el lugar que las dibuja html se queda fijo, 
-ejemplo si le das, top: 2opx, se va a bajar 20px de su posicion incial por html.
-por lo que el ese espacio creado por html inicialmente se reserva para el 
+ejemplo si le das, top: 2opx, se va a bajar 20px de su posicion incial por html
+por lo que el ese espacio creado por html inicialmente se reserva para el.
 
 absolute: No guarda su pocision, por lo que es "libre" y su nuevo plano carteseano es la pantalla en si
 emjemplo: si le damos button: 0, entonces se ira hasta el abajo de la pantalla
 para mover cosas con absolute dentro de un contenedor, el contenedor tiene que estar pocisionado con relative, sino 
-el absolute tomaria como refencia el vp
+el absolute tomaria como refencia el vp.
 
 fixed: es como absolute, no guarda su espacio en el dom, pero se queda quito no se mueve
 con el se pueden crear menus, al no guardar elemetos, lo de abajo sube, y pos hay que ponerle un 
-padding-top a lo de abajo para que no se esconda atras y se pueda ver, ademas que hay que posicionar todo
+padding-top a lo de abajo para que no se esconda atras y se pueda ver, ademas que hay que posicionar todo.
 
 
 sticky: es como fixed, hasta que llega a ese lugar se convierte en fixed, mientras no
@@ -119,25 +124,25 @@ definir un z-index=-1 y NO posicionar el contenedor, de esa forma no adquiere la
 OVERFLOW
 
 overflow: auto
-es por si se sale del su contenedor le pone una barrita de scroll
+es por si se sale del su contenedor le pone una barrita de scroll.
 
 overflow: hidden
-lo que sale o lo que sobre se oculta
+lo que sale o lo que sobre se oculta.
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 FLOAT
 
-sirve como para posicionar pero envuelve a lo que esta alrededor de el
-sirve para hacer post como wikipedia que hay texto y a un lado una imagen que envuelve el texto, pero no lo oculta en su posicion 
+sirve como para posicionar pero envuelve a lo que esta alrededor de el.
+sirve para hacer post como wikipedia que hay texto y a un lado una imagen que envuelve el texto, pero no lo oculta en su posicion .
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 PSEUDO-ELEMENTO
 
-"nombre del elemento"::first-line, modifica solo la primera linea, aun cuando se cambia la resolcion de la pantalla
-"nombre del elemento"::first-letter, modifica solo la primera letra
-"nombre del elemento input"::placeholder, modifica el placeholder de un input
-"nombre del elemento"::selection, modifica lo que esta sombreado por el mouse
+"nombre del elemento"::first-line, modifica solo la primera linea, aun cuando se cambia la resolcion de la pantalla.
+"nombre del elemento"::first-letter, modifica solo la primera letra.
+"nombre del elemento input"::placeholder, modifica el placeholder de un input.
+"nombre del elemento"::selection, modifica lo que esta sombreado por el mouse.
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -148,20 +153,23 @@ object-fit: none, le importa un carajo y se pone en sus resoluciones normales.
 object-fit: cover, ajusta la imagen, tipo strecht a un div o a su contenedor.
 object-fit: scale-down, se queda con la mejor propiedad
 
-objet-posiction: left, la imagen se muestra mas del lado izquierdo
-objet-posiction: right, la imagen se muestra mas del lado derecho
-objet-posiction: up, la imagen se muestra mas del lado arriba
-objet-posiction: down, la imagen se muestra mas del lado abajo
+objet-posiction: left, la imagen se muestra mas del lado izquierdo.
+objet-posiction: right, la imagen se muestra mas del lado derecho.
+objet-posiction: up, la imagen se muestra mas del lado arriba.
+objet-posiction: down, la imagen se muestra mas del lado abajo.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 CURSOR
 
 cursor: pointer, row-resize, progress etc 
-se pueden buscar en internet los tipos de cursores
-/*	obviamente no hacen esas funciones solo es front-end*/
+se pueden buscar en internet los tipos de cursores.
+/*obviamente no hacen esas funciones solo es front-end*/
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+
+FLEX
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------
