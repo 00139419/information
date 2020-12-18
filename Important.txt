@@ -1,13 +1,8 @@
-https://www.figma.com/file/vMq5VPiocn5ACLBmIsWKVf/Untitled?node-id=50%3A70
-https://trello.com/b/YK23I7lQ/api-star-wars
-https://www.cnet.com/es/imagenes/star-wars-naves-mas-poderosas-famosas-fotos/
 https://drive.google.com/drive/folders/1U3g8HH6k2VT0M6tywpVIql6BrwOeIBdp?usp=sharing_eip&ts=5f408e28
-
 
 module for idm chrome: https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
 
-
-https://github.com/UCASV/ficha-personal-00139419
+Expresiones regulares -------------> http://w3.unpocodetodo.info/utiles/regex-ejemplos.php?type=psw
 
 i-g68.D-Morales@estudiante.ccsa.edu.sv
 -----------------------------------------------------------------------------------
@@ -31,13 +26,6 @@ Daniel0356##
 
 -----------------------------------------------------------------------------------
 
-Crack visula 
-
-enterprice: BF8Y8-GN2QH-T84XB-QVY3B-RC4DF
-professional: NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y
-
------------------------------------------------------------------------------------
-
 Cuenta de mama de chaco
 mariaanapineda2020@gmail.com
 contraseña: "B8A46D23B8"
@@ -50,21 +38,31 @@ WIFI PASSWORD: "B8A46D23B8"
 
 -----------------------------------------------------------------------------------
 
-ip de wifi: 192.168.1.1
+
 
 -----------------------------------------------------------------------------------
 
 carnet de CCSA: 20162536
 
------------------------------------------------------------------------------------
-
-https://store.zonadigitalsv.com/product/846651028006
 
 -----------------------------------------------------------------------------------
 Base de datos
+
 https://www.youtube.com/watch?v=c4P__KoPZwo
 -----------------------------------------------------------------------------------
-figma.com, material.io, https://material.io/resources/color/#!/?view.left=0&view.right=0, https://rsuitejs.com/,  https://react-icons.github.io/react-icons/, https://www.flaticon.com/,  https://www.freepik.es/, http://materialuicolors.co/?utm_source=launchers, https://colorhunt.co/,  https://codepen.io/sdthornton/pen/wBZdXq, https://css-tricks.com/archives/,  https://css-tricks.com/practical-css-scroll-snapping/, https://css-tricks.com/nerds-guide-color-web/, https://css-tricks.com/stacked-cards
+figma.com,
+ material.io,
+ https://material.io/resources/color/#!/?view.left=0&view.right=0,
+ https://rsuitejs.com/,
+ https://react-icons.github.io/react-icons/,
+ https://www.flaticon.com/,  https://www.freepik.es/,
+ http://materialuicolors.co/?utm_source=launchers,
+ https://colorhunt.co/,
+ https://codepen.io/sdthornton/pen/wBZdXq,
+ https://css-tricks.com/archives/,
+ https://css-tricks.com/practical-css-scroll-snapping/,
+ https://css-tricks.com/nerds-guide-color-web/,
+ https://css-tricks.com/stacked-cards
 -----------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------
