@@ -2,7 +2,10 @@ https://drive.google.com/drive/folders/1U3g8HH6k2VT0M6tywpVIql6BrwOeIBdp?usp=sha
 
 module for idm chrome: https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
 
+
 Expresiones regulares -------------> http://w3.unpocodetodo.info/utiles/regex-ejemplos.php?type=psw
+		      -------------> https://github.com/falconmasters/expresiones-regulares
+
 
 i-g68.D-Morales@estudiante.ccsa.edu.sv
 -----------------------------------------------------------------------------------
