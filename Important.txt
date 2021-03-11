@@ -24,8 +24,8 @@ play.brlns.net
 dei contraseña #1:
 Daniel0356#
 
-Dei contraseña #2:
-Daniel0356##
+Dei contraseña #2: -- Actual
+Daniel0356#1
 
 -----------------------------------------------------------------------------------
 
