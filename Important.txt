@@ -9,10 +9,16 @@ Expresiones regulares -------------> http://w3.unpocodetodo.info/utiles/regex-ej
 
 i-g68.D-Morales@estudiante.ccsa.edu.sv
 -----------------------------------------------------------------------------------
+
+para update una rama desde la rama que quiero update: git pull origin main 
+
+
+-----------------------------------------------------------------------------------
+
 Contraseña de adonay
 
 F70443969
-Informatica#1
+Informatica#2
 
 
 Pz0324 
@@ -24,10 +30,10 @@ play.brlns.net
 
 -----------------------------------------------------------------------------------
 
-dei contraseña #1:
+dei contraseña #1: -- Actual
 Daniel0356#
 
-Dei contraseña #2: -- Actual
+Dei contraseña #2: 
 Daniel0356#1
 
 -----------------------------------------------------------------------------------
