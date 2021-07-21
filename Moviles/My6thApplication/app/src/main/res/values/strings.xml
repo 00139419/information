@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My 6th Application</string>
+    <string name="empty_textview">empty TextView</string>
+    <string name="write_something">Write something...</string>
+    <string name="original_text">Original</string>
+    <string name="mayusculas">MAYUSCULAS</string>
+    <string name="minusculas">minusculas</string>
+    <string name="reemplazar">REEMPLAZAR</string>
+</resources>

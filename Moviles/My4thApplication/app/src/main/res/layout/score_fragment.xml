@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/Team_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_tittle"
+        android:textSize="@dimen/tittle_size"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/min_margin"
+        android:layout_marginEnd="@dimen/min_margin"
+        android:layout_marginTop="@dimen/min_margin"
+        android:layout_marginBottom="@dimen/min_margin"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/action_btn_add_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_one"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textSize="@dimen/tittle_size"
+        android:layout_marginStart="@dimen/min_margin"
+        android:layout_marginEnd="@dimen/min_margin"
+        android:layout_marginTop="@dimen/min_margin"
+        android:layout_marginBottom="@dimen/min_margin"
+        />
+    <TextView
+        android:id="@+id/score_value_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_score"
+        android:textSize="@dimen/tittle_size"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/min_margin"
+        android:layout_marginEnd="@dimen/min_margin"
+        android:layout_marginTop="@dimen/min_margin"
+        android:layout_marginBottom="@dimen/min_margin"/>
+</LinearLayout>

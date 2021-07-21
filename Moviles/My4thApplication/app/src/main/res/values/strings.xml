@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My 4th Application</string>
+    <string name="input_score_tittle">Input</string>
+    <string name="output_score_tittle">output</string>
+    <string name="add_one">+1</string>
+    <string name="default_score">0</string>
+    <string name="default_tittle">score</string>
+</resources>

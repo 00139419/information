@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My second aplication</string>
+    <string name="defalut_hint">defalut text</string>
+    <string name="defalut_text">defalut_text</string>
+    <string name="default_hint_name">name</string>
+    <string name="default_hint_lastname">lastname</string>
+    <string name="contact_form">Contact form</string>
+    <string name="default_email_text">email@example.com</string>
+    <string name="default_text_phone">1234-5678</string>
+    <string name="default_text_area_code">+503</string>
+    <string name="default_hint_address">address</string>
+    <string name="setting_form_tittle">Settion form</string>
+    <string name="toggle">Toggle</string>
+    <string name="single_check_subtittle">single check</string>
+    <string name="allow_notification">Allow notification</string>
+    <string name="turn_off_notification">Turn off notification</string>
+    <string name="multiple_checks">Multiple checks</string>
+    <string name="micrphone_access">micrphone access</string>
+    <string name="camera_access">camera access</string>
+    <string name="galery_access">galery access</string>
+    <string name="localization_access">localization access</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Siguente</string>
+</resources>

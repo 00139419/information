@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application 12th</string>
+    <string name="label_tittle">Insert a new data</string>
+    <string name="hint_word">word</string>
+    <string name="hint_description">description</string>
+    <string name="btn_text_add">add</string>
+</resources>
